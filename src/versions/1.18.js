@@ -190,59 +190,10 @@ class VersionGenerator extends MineflayerGenerator {
   }
 
   /**
+   * TODO: Add missing packets: spawn_entity_living entity_metadata entity_update_attributes entity_equipment
    * @returns {Packet[]}
    */
   packetsLoginSequence() {
-    const loginPacket = {
-      entityId: 494,
-      isHardcore: false,
-      gameMode: 0,
-      previousGameMode: -1,
-      worldNames: [
-        'minecraft:overworld',
-        'minecraft:the_nether',
-        'minecraft:the_end'
-      ],
-      dimensionCodec: {
-        type: 'compound',
-        name: '',
-        value: {
-          'minecraft:dimension_type': [Object],
-          'minecraft:worldgen/biome': [Object]
-        }
-      },
-      dimension: {
-        type: 'compound',
-        name: '',
-        value: {
-          infiniburn: [Object],
-          effects: [Object],
-          ultrawarm: [Object],
-          logical_height: [Object],
-          height: [Object],
-          natural: [Object],
-          min_y: [Object],
-          bed_works: [Object],
-          coordinate_scale: [Object],
-          piglin_safe: [Object],
-          has_skylight: [Object],
-          has_ceiling: [Object],
-          ambient_light: [Object],
-          has_raids: [Object],
-          respawn_anchor_works: [Object]
-        }
-      },
-      worldName: 'minecraft:overworld',
-      hashedSeed: 1213778293047711577n,
-      maxPlayers: 20,
-      viewDistance: 11,
-      simulationDistance: 10,
-      reducedDebugInfo: false,
-      enableRespawnScreen: true,
-      isDebug: false,
-      isFlat: false
-    }
-
     const otherPlayers = () => {
       const packets = []
       const players = this.bot.players
