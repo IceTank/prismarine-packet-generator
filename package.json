@@ -1,6 +1,6 @@
 {
   "name": "prismarine-packet-generator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A module to generate minecraft packets in node.js",
   "main": "index.js",
   "scripts": {
