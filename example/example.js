@@ -1,5 +1,5 @@
 const mf = require('mineflayer')
-const { generators } = require('minecraft-packets')
+const { generators } = require('..')
 const mp = require('minecraft-protocol')
 const { PacketCompare } = require('../src/packetcompare')
 const repl = require('repl')
