@@ -1387,9 +1387,9 @@ macaddress@^0.5.1:
   integrity sha512-cYYBbT3b84hTEHssWE6OmsuqF/NiLXE2RGK9Sc9SwwE9kMoKrbaUAJtKs6ucd0FFgZjXE1Wm3hoGEEYas0N6EA==
 
 minecraft-data@^3.0.0, minecraft-data@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-3.2.0.tgz#49e6956c26d7a6cdc866d52ec1cd9ab219a83d06"
-  integrity sha512-53jjm+TV0yhBtR74bGW051xHHCJCM2CYUZ5f9aZGxwkqhcpudd7PLWKuzCS2abB1R8074ON6tfYiAqXSiuEEMw==
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-3.3.0.tgz#e470d7c9b98a1b4f55cf7b70ba0e2717e90add5d"
+  integrity sha512-pbJttWn16yAyiXbq3xhTUpu9aAXUxLJu6C/rAQfwxM4pKb7hL1UqVCzZ1NXHaDBuGL03bPpO1AwlB2NjNfeL5g==
 
 minecraft-folder-path@^1.2.0:
   version "1.2.0"
@@ -1861,7 +1861,7 @@ prismarine-nbt@^2.0.0:
     protodef "^1.9.0"
 
 "prismarine-packet-generator@file:.":
-  version "1.0.0"
+  version "1.0.2"
   dependencies:
     minecraft-data "^3.2.0"
     mineflayer "^4.1.0"
