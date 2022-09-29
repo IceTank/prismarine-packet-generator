@@ -1739,9 +1739,9 @@ prismarine-recipe@^1.1.0:
   integrity sha512-ZkCtEi5xDS7tAJgDS/BxjvEYPAXusikcyIWYhPOpA6nslIUqWF5+QevC6FpNa3eQVdebgiNBQqHggcnI4xww5g==
 
 prismarine-registry@^1.0.0, prismarine-registry@^1.1.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/prismarine-registry/-/prismarine-registry-1.2.0.tgz#34c96e521f10bd86f72c1ee1dd89c55d57914283"
-  integrity sha512-c3aEnn9/KrHo0zv4KihX0caFilCw5VW8Kaj9LXtArGRk5NkncDCguhM0S1SEj4WqoXsFSY4yG5HM5G4F92SKHg==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/prismarine-registry/-/prismarine-registry-1.4.0.tgz#403e94af68013e8b3705b3e5f8cc81cda593b4c6"
+  integrity sha512-bzBoigY8JqCIyAhHW6vBrn5t1OljPvtGbwV/NwiMaZkhE/17yc5JiSLskqaQ9c5uQ0LpGTNhAssIE3QS3W4+oA==
   dependencies:
     minecraft-data "^3.0.0"
     prismarine-nbt "^2.0.0"
