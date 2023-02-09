@@ -1274,9 +1274,9 @@ macaddress@^0.5.1:
   integrity sha512-cYYBbT3b84hTEHssWE6OmsuqF/NiLXE2RGK9Sc9SwwE9kMoKrbaUAJtKs6ucd0FFgZjXE1Wm3hoGEEYas0N6EA==
 
 minecraft-data@^3.0.0, minecraft-data@^3.2.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-3.6.0.tgz#db745be85e7e3f703ba72d3026dbca6afa233fa2"
-  integrity sha512-Ck1Ahbr+c7MGZoLJPozfjkVWRxI9WWgQTbdwTgDmAT3xcj4JPsGZVFhqG5v+JQmYEwYqWJUtxvC0dp+HE56Tyg==
+  version "3.27.0"
+  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-3.27.0.tgz#4cd90ebc121b30d0dca7e6d36d31c31d1d2d2479"
+  integrity sha512-Hc0RnPr2pZItI/OK9gi5oKQQaXLfTGhHms4celUkuaNyHTgWolCCc1Bg5AxpIyymoM/xhBvIhMA6au42R17Ajw==
 
 minecraft-folder-path@^1.2.0:
   version "1.2.0"
